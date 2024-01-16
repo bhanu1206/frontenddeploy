@@ -1,0 +1,29 @@
+.custom-table {
+    border-collapse: collapse;
+    width: 40%;
+  }
+   
+  .custom-table th, .custom-table td {
+    
+    text-align: left;
+    padding: 15px;
+    
+  }
+  .custom-table td {
+    border-bottom: 1px solid black;
+  }
+   
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  #check-btn{
+    background-color: rgb(104, 187, 66);
+  border: none;
+  border-radius: 8px;
+  color: rgb(249, 252, 251);
+  padding: 3px 10px;
+  font-weight: 500;
+  position: relative;
+  left: 25rem;
+  top: 1rem;
+  }

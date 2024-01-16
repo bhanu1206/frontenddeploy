@@ -1,0 +1,34 @@
+.custom-tableh {
+    border-collapse: collapse;
+    width: 40%;
+  }
+   
+  .custom-tableh th, .custom-tableh td {
+    
+    text-align: left;
+    padding: 15px;
+    
+  }
+  .custom-tableh td {
+    border-bottom: 2px solid rgb(245, 244, 241);
+    
+    
+  }
+  .custom-tableh tr{
+    color: Wheat;
+  }
+  .custom-tableh th {
+    background-color: #f2f2f2;
+    
+  }
+  tr{
+    color: "wheat"
+  }
+
+ .custom-tableh img{
+  max-width: 120px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+ }
