@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: bhanu126/foodapp:latest
+        image: varunpolampalli2001/foodapp:latest
         ports:
         - containerPort: 3000
         
