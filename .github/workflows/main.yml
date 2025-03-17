@@ -19,7 +19,7 @@ jobs:
       - name: Fix Browserslist Warning
         run: npx update-browserslist-db@latest || true
 
-      - name: Fix Babel Dependency Issue
+      - name: Fix Babel Dependency Issues
         run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
 
       - name: Build React App
