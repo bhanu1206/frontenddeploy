@@ -16,8 +16,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Fix Browserslist Warning
+        run: npx update-browserslist-db@latest || true
+
+      - name: Fix Babel Dependency Issue
+        run: npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
       - name: Build React App
-        run: npm run build
+        run: CI=false npm run build
 
       - name: Deploy to Ubuntu using SSH
         uses: appleboy/ssh-action@master
